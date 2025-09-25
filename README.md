@@ -2,7 +2,7 @@
 
 A comprehensive Java-based student management system designed to handle course enrollment, grading, and academic records management for educational institutions.
 
-## 🚀 Features
+##  Features
 
 - **Student Management**: Create, update, and manage student profiles with enrollment tracking
 - **Course Management**: Handle course creation with detailed information including credits, instructors, and departments
@@ -11,7 +11,7 @@ A comprehensive Java-based student management system designed to handle course e
 - **Transcript Generation**: Generate detailed academic transcripts for students
 - **Instructor Profiles**: Manage instructor information and course assignments
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -32,7 +32,7 @@ src/
     └── EnrollmentService.java
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Domain Model
 
@@ -51,7 +51,7 @@ The system follows a domain-driven design approach with the following core entit
 - **Value Object**: CourseCode as an immutable value class
 - **Enumeration**: Grade, Semester, and Status for type safety
 
-## 🎯 Key Components
+##  Key Components
 
 ### Grade System
 ```java
@@ -75,7 +75,7 @@ Course course = new Course.Builder("CS101")
     .build();
 ```
 
-## 🛠️ Usage
+##  Usage
 
 ### Creating a Student
 ```java
@@ -105,7 +105,7 @@ enrollment.setGrade(Grade.A);
 student.printTranscript(); // Prints detailed transcript with GPA
 ```
 
-## 🔧 Service Layer
+##  Service Layer
 
 The application uses a service-oriented architecture:
 
@@ -115,12 +115,12 @@ The application uses a service-oriented architecture:
 
 Services are configured through the `AppConfig` singleton for dependency injection.
 
-## 📋 Requirements
+##  Requirements
 
 - Java 8 or higher (uses LocalDate from java.time package)
 - No external dependencies required for core functionality
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone the repository:
 ```bash
@@ -138,14 +138,14 @@ javac -d bin src/**/*.java
 java -cp bin Main
 ```
 
-## 🧪 Testing
+##  Testing
 
 The system includes comprehensive domain models that can be tested with:
 - Unit tests for individual entities
 - Integration tests for service layer
 - End-to-end tests for complete workflows
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -155,6 +155,4 @@ The system includes comprehensive domain models that can be tested with:
 
 
 
----
 
-*Built with ❤️ using Java and clean architecture principles*
