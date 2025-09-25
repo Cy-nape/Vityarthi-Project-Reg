@@ -1,0 +1,4 @@
+id,regNo,fullName,email,department
+I001,2023INST001,Dr. Alan Turing,alan.turing@example.com,Computer Science
+I002,2023INST002,Dr. Isaac Newton,isaac.newton@example.com,Mathematics
+I003,2023INST003,Dr. Marie Curie,marie.curie@example.com,Physics

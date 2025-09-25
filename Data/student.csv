@@ -1,0 +1,4 @@
+id,regNo,fullName,email,status,enrollmentDate
+S001,2023REG001,Ricky Behl,ricky.doe@example.com,active,2023-09-01
+S002,2023REG002,Sahil Kulhar,sahil.kulhar@example.com,active,2023-09-01
+S003,2023REG003,Ajeet Yadav,ajeet@example.com,inactive,2022-09-01

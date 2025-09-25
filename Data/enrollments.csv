@@ -1,0 +1,4 @@
+studentId,courseCode,enrollmentDate,grade
+S001,CS101,2023-09-05,A
+S002,MA102,2023-09-06,B
+S001,PH103,2023-09-07,S
